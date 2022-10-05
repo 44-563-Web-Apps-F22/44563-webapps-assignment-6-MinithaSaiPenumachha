@@ -40,21 +40,21 @@ function checkGuess (){
     }
 }
 </script>
-<div style="padding: 60px 60px"><img src="NomadBee.jpg" id="bird" height="100px" width="100px" onclick="swapImage()"></div>
+<div style="padding: 60px 60px"><img src="PollenBeetle.jpg" id="bird" height="100px" width="100px" onclick="swapImage()"></div>
     <script>
         var useImage=1;
         function swapImage(){
             switch(useImage){
                 case 1:
-                document.getElementById("bird").src="PollenBeetle.jpg"
+                document.getElementById("bird").src="ElephantBeetle.jpg"
                 useImage=2;
                 break;
                 case 2:
-                document.getElementById("bird").src="ElephantBeetle.jpg"
+                document.getElementById("bird").src="NomadBee.jpg"
                 useImage=3;
                break;
                 case 3:
-                document.getElementById("bird").src="NomadBee.jpg"
+                document.getElementById("bird").src="PollenBeetle.jpg"
                 useImage=1;
                 break;
             }
